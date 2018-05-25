@@ -6,8 +6,20 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root"></div>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
+      <header>
+          <h1>CIFRADO CESAR</h1>
+      </header>
+          <label>Mensaje</label>
+          <input type="text" size=30 id="encriptar" placeholder="Ingrese texto aqui"></br>
+          <label>Llave</label>
+          <input type="text" size=5 id="llavecodigo" placeholder="número" maxlength="2"><br><br>
+          <input type="button" value="Encriptar" id="cifrar1"> 
+          <input type="button" value="Desencriptar" id="descifrar1"><br><br>
+
+          <input type="text" size=30 id="soluciones" placeholder="Texto desencriptado"><br>
+      
+      <script src="cipher.js"></script>
+      <script src="index.js"></script><br>
+    <i><div id="root">¡Gracias por dejar tu mensaje!</div></i>
   </body>
 </html>
