@@ -1,30 +1,29 @@
-h1, h3{
-    padding: 70px;
+h1{
+    padding: 40px;
     font-size: 50px;
-    color:black;
-    font-family: Helvetica;
+    color:brown;
+    font-family: "Helvetica" ;
     }
   
 h4 {
-    font-family: LucidaSans;
+    font-family: "LucidaSans";
     font-style: italic;
    }
 
 body{
     text-align: center;
-    font-family: Helvetica;
-    padding-top: 5%;
+    font-family: "Helvetica";
+    padding-top: 8%;
     background-image: url("Read.md/confeti-01.png");
     background-repeat: repeat-x;
-    background-position:top;
     background-color:#f9f7db;
     }
 
 input{
     border-radius: 10px;
-    text-decoration: none;
     padding: 10px;
     font-weight: 200;
     font-size: 12px;
     cursor: pointer;  
     }
+

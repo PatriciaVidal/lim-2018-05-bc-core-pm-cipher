@@ -1,22 +1,15 @@
-
-var encriptar = document.getElementById("encriptar");
-let llavecodigo = document.getElementById("llavecodigo");
 const cifrar1 = document.getElementById("cifrar1");
+cifrar1.addEventListener("click", () => {
+    let text = document.getElementById("encriptar").value.toUpperCase();
+    let key = parseInt(document.getElementById("llaveCodigo").value);
+    let soluciones = document.getElementById("soluciones");
+    soluciones.value = cipher.encode(key,text);
+    });
+ 
 const descifrar1 = document.getElementById("descifrar1");
-let soluciones= document.getElementById("soluciones");
-
-encriptar.addEventListener("input", () => {
-    console.log (encriptar.value);
-    })
-
-llavecodigo.addEventListener("input", () => {
-    console.log (llavecodigo.value);
-    })
-    
-cifrar1.addEventListener("click", cifrar);
-
-descifrar1.addEventListener("click", descifrar);
-
-soluciones.addEventListener("input", () => {
-   console.log (soluciones.value);
-   })
+descifrar1.addEventListener("click", () => {
+    let text2 = document.getElementById("desencriptar").value.toUpperCase();
+    let key = parseInt(document.getElementById("llaveCodigo").value);
+    let soluciones = document.getElementById("soluciones");
+    soluciones.value = window.cipher.decode(key,text2);
+    });
