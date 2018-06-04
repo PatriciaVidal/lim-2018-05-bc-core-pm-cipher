@@ -19,10 +19,13 @@ const cifrar = (offset,string) => {
 window.cipher = {
 encode: cifrar,
 decode: descifrar,
-createCipherWithOffset: (offset) => {
-    //return encode,decode;
-    return offset;
-}
-   };
+
+createCipherWithOffset:(offset) => {
+    let objeto = {
+    encode:(string) => {cifrar},
+    decode:(string) => {descifrar},
+    }
+    }};
+    
 
 
