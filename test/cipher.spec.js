@@ -25,16 +25,16 @@ describe('cipher', () => {
       assert.equal(cipher.decode(33,"HIJKLMNOPQRSTUVWXYZABCDEFG"), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'); 
   });
 
-  describe('cipher.createCipherWithOffset', () => {
+ /* describe('cipher.createCipherWithOffset', () => {
 
     it('debería ser un función', () => {
       assert.equal(typeof cipher.createCipherWithOffset, 'function');
-    });
+    });*/
 
-    it('debería retornar un objeto con dos funciones (encode y decode) con offset fijado', () => {
-      assert.equal(typeof cipher.createCipherWithOffset,'function');
+   // it('debería retornar un objeto con dos funciones (encode y decode) con offset fijado', () => {
+      //assert.equal(typeof cipher.createCipherWithOffset,'function');
       //assert.equal(typeof encode,'function' && decode,'function');
       //assert.equal(typeof decode,'function' && decode,'function');
   });
 
-})})})
+})
