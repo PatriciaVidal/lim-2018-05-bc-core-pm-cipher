@@ -24,12 +24,12 @@ Archivos adjuntos:
 
 #### Imagenes:
 
-![Scketching][1]  
+![Sketching][1]  
 
 ![Mockup][2]  
 
-[1]: Read.md/scketching.jpg "Scketching"
-[2]: Read.md/Mockup_cifradocesar.jpg "Prototipado app web y celular"
+[1]: https://github.com/PatriciaVidal/lim-2018-05-bc-core-pm-cipher/blob/master/src/Read.md/scketchingpatricia.jpg "Sketching"
+[2]: https://github.com/PatriciaVidal/lim-2018-05-bc-core-pm-cipher/blob/master/src/Read.md/Mockup%20cifradocesar.jpg "Prototipado app web y celular"
 
 Gracias!
 
